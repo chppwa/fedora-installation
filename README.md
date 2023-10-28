@@ -15,7 +15,9 @@ fedora installation via DD
 7. As it turns out, it is entirely unneccessary to wipe the drive, as using dd to install Fedora will overwrites and partitions with .iso
 8. It was a bit challenging to user the `cd` command as I kept recieving the issue of File/directory did not exist
 9. I verified the home directory was mounted (obviously) which allowed me to understand the mount points affect where you can `cd` and you need to cd to a mount point first, or include that in path (you have to put / first for `cd` to understand.
-10. dd completed in record time - booting to fedora iso and testing (fingers crossed) 
+10. dd completed in record time - booting to fedora iso and testing (fingers crossed)
+11. Using Boot Manager and was able to boot to Fedora iso, unable to install to Micro SD as the install manager refused to acknowledge SSD.
+12. Annoyed... because the SSD carrier i ordered is not arriving until tomorrow around 10pm, but when i ordered it it said Saturday. 
 
 FINAL STEPS;
 (A)(root@steamdeck deck)# mount /home
